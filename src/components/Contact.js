@@ -5,7 +5,7 @@ export default function Contact() {
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">Fale com nossa equipe</span>
         </h2>
-        <form className="flex flex-row flex-wrap gap-2 w-3/2 bg-blue-50 p-2 shadow">
+        <form className="flex flex-row flex-wrap gap-2 w-3/2 bg-blue-100 p-2 shadow">
             <input className="px-2 py-1 w-full outline-blue-100" placeholder="Nome"/>
             <input className="px-2 py-1 w-full outline-blue-100" placeholder="Código de Área + Telefone"/>
             <input className="px-2 py-1 w-3/4 outline-blue-100"placeholder="Data"/>
