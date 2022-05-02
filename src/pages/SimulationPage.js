@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function SimulationPicker() {
+export default function SimulationPage() {
   const [simulation, setSimulation] = useState({
     label: "Carros",
     desiredValue: 18000,

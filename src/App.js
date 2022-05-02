@@ -1,5 +1,5 @@
 import Home from "../src/pages/Home"
-import SimulationPicker from "../src/pages/SimulationPicker"
+import SimulationPage from "../src/pages/SimulationPage"
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/simulation" element={<SimulationPicker />} />
+        <Route path="/simulation" element={<SimulationPage />} />
       </Routes>
     </Router>
   );
