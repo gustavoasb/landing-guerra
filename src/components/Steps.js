@@ -24,7 +24,7 @@ export default function Steps() {
             <div className="text-xl">Seu objetivo realizado</div>
           </div>
         </div>
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
           <span className="block">O passo a passo do</span>
           <span className="block text-blue-600">creditado</span>
         </h2>

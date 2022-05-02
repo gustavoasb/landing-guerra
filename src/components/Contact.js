@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-4 lg:mb-0">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl mb-4 lg:mb-0">
           <span className="block">Ligamos para você</span>
         </h2>
         <form className="flex flex-row flex-wrap gap-2 w-3/2 bg-blue-100 p-2 shadow">

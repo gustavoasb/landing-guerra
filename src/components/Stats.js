@@ -1,9 +1,9 @@
 export default function Stats() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex flex-col items-center lg:justify-between">
-        <h3 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span className="block">Segurança, qualidade e velocidade.</span>
+        <h3 className="text-lg font-medium tracking-tight text-gray-900 sm:text-2xl">
+          <span className="block">Segurança, qualidade e experiência.</span>
         </h3>
         <div className="mt-8 flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-8">
           <div className="flex flex-col items-center gap-1">

@@ -2,11 +2,11 @@ import LogoBb from "../assets/bb-logo.png";
 import LogoItau from "../assets/itau-logo-1.png";
 import LogoCaixa from "../assets/caixa-logo.png";
 
-export default function Simulation() {
+export default function Partners() {
   return (
     <div className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex flex-col items-center justify-between gap-8">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 flex justify-center items-center sm:text-4xl mr-8">
+        <h2 className="text-2xl font-medium tracking-tight text-gray-900 flex justify-center items-center sm:text-3xl mr-8">
           <span className="block text-blue-600">Autorizado&nbsp;</span>
           <span className="block">por</span>
         </h2>
