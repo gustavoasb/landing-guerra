@@ -7,8 +7,8 @@ export default function Simulation() {
     <div className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:flex-col lg:items-center lg:justify-between gap-8">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 lg:flex sm:text-4xl mr-8">
-          <span className="block">Autorizados&nbsp;</span>
-          <span className="block text-blue-600">por</span>
+          <span className="block text-blue-600">Autorizados&nbsp;</span>
+          <span className="block">por</span>
         </h2>
         <div>
           <div className="lg:flex lg:items-center lg:flex-center gap-4">
