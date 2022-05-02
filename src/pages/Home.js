@@ -1,4 +1,5 @@
 import Header from "../../src/components/Header"
+import Simulation from "../components/Simulation";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     {/* Partners */}
     {/* Passo a Passo */}
     {/* CTA / SIMULAÇãO */}
+      <Simulation />
     {/* Dados */}
     {/* Contato */}
     
