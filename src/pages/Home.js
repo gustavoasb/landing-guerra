@@ -1,5 +1,6 @@
 import Header from "../../src/components/Header"
 import Simulation from "../components/Simulation";
+import Partners from "../../src/components/Partners"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     {/* Header */}
       <Header />
     {/* Partners */}
+      <Partners />
     {/* Passo a Passo */}
     {/* CTA / SIMULAÇãO */}
       <Simulation />
