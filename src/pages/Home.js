@@ -8,17 +8,11 @@ import Contact from "../../src/components/Contact"
 function App() {
   return (
     <>
-    {/* Header */}
       <Header />
-    {/* Partners */}
       <Partners />
-    {/* Passo a Passo */}
       <Steps />
-    {/* CTA / SIMULAÇãO */}
       <Simulation />
-    {/* Dados */}
       <Stats />
-    {/* Contato */}
       <Contact />
     </>
   );
