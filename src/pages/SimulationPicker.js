@@ -2,6 +2,7 @@ import { useState } from "react"
 
 export default function SimulationPicker() {
   const [simulation, setSimulation] = useState({
+    label: "Carros",
     desiredValue: 18000,
     start: 1,
     deadline: 36,
@@ -23,12 +24,12 @@ export default function SimulationPicker() {
         </a>
       </div>
     </div>
-    <div className="bg-white flex w-full">
+    <div className="bg-white flex flex-col lg:flex-row w-full">
       <div className="ml-3 w-full">
-        <div className="w-3/4 p-5 flex flex-col gap-5">
+        <div className="lg:w-3/4 p-5 flex flex-col gap-5">
           <div className="">
             <h3 className="text-xl font-medium">Qual o valor do carro desejado?</h3>
-            <div>Motos de<span className="font-medium text-lg text-indigo-600">{` R$${simulation.desiredValue}`}</span></div>
+            <div>{simulation.label} de<span className="font-medium text-lg text-indigo-600">{` R$${simulation.desiredValue}`}</span></div>
             <input onChange={((e) => setSimulation({...simulation, desiredValue: e.target.value}))} value={simulation.desiredValue} min={18000} max={500000} type="range"/>
           </div>
           <div>
@@ -44,14 +45,14 @@ export default function SimulationPicker() {
           </div>
         </div>
       </div>
-      <div className="w-1/4 rounded-md m-2  shadow h-auto flex flex-col gap-1">
+      <div className="lg:w-1/4 rounded-md m-2  shadow h-auto flex flex-col gap-1">
         <div className="p-4 bg-gray-50 flex gap-1 justify-between">
           <h3 className="font-bold text-blue-600 text-lg">Simulação </h3>
-          <select className="px-2 py-1 border-blue-100 rounded ouline-blue-100 border-2">
-            <option>Carros</option>
-            <option>Imovéis</option>
-            <option>Moto</option>
-            <option>Aeronaves</option>
+          <select onChange={(e) => setSimulation({...simulation, label: e.target.value})} value={simulation.label} className="px-2 py-1 border-blue-100 rounded ouline-blue-100 border-2">
+            <option value="Carros">Carros</option>
+            <option value="Imovéis">Imovéis</option>
+            <option value="Motos">Motos</option>
+            <option value="Aeronaves">Aeronaves</option>
           </select>
         </div>
         <div className="p-4">
