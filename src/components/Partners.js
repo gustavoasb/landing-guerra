@@ -23,7 +23,7 @@ export default function Simulation() {
             />
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center text-lg">
         Somos representantes credenciados às mais sólidas administradoras do país, todas reguladas pelo Banco Central do Brasil. Conte com a nossa equipe para entender o funcionamento do consórcio, como utilizar e a melhor forma de 
         contemplar a sua cota. Prestamos <span className="font-medium">assessoria exclusiva</span> antes, durante e após a contratação.
         </div>
