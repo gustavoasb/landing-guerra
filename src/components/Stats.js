@@ -7,31 +7,19 @@ export default function Stats() {
         </h3>
         <div className="mt-8 flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-8">
           <div className="flex flex-col items-center gap-1">
-            <div className="font-bold text-4xl text-blue-600">
-              10000
-            </div>
-            <div className="text-xl">
-              clientes atendidos
-            </div>
+            <div className="font-bold text-4xl text-blue-600">10000</div>
+            <div className="text-xl">clientes atendidos</div>
           </div>
           <div className="flex flex-col items-center gap-1">
-            <div className="font-bold text-4xl text-blue-600">
-              4000
-            </div>
-            <div className="text-xl">
-              imóveis entregues
-            </div>
+            <div className="font-bold text-4xl text-blue-600">4000</div>
+            <div className="text-xl">imóveis entregues</div>
           </div>
           <div className="flex flex-col items-center gap-1">
-            <div className="font-bold text-4xl text-blue-600">
-              10%
-            </div>
-            <div className="text-xl">
-              de redução de taxa
-            </div>
+            <div className="font-bold text-4xl text-blue-600">10%</div>
+            <div className="text-xl">de redução de taxa</div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

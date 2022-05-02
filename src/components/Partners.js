@@ -1,6 +1,6 @@
-import LogoBb from "../assets/bb-logo.png"
-import LogoItau from "../assets/itau-logo-1.png"
-import LogoCaixa from "../assets/caixa-logo.png"
+import LogoBb from "../assets/bb-logo.png";
+import LogoItau from "../assets/itau-logo-1.png";
+import LogoCaixa from "../assets/caixa-logo.png";
 
 export default function Simulation() {
   return (
@@ -12,22 +12,20 @@ export default function Simulation() {
         </h2>
         <div>
           <div className="flex items-center flex-center gap-4">
-            <img className="h-8 w-auto sm:h-16"
-              src={LogoBb}
-            />
-            <img className="h-8 w-auto sm:h-16"
-              src={LogoItau}
-            />
-            <img className="h-4 w-auto sm:h-8"
-              src={LogoCaixa}
-            />
+            <img className="h-8 w-auto sm:h-16" src={LogoBb} />
+            <img className="h-8 w-auto sm:h-16" src={LogoItau} />
+            <img className="h-4 w-auto sm:h-8" src={LogoCaixa} />
           </div>
         </div>
         <div className="text-center text-lg">
-        Somos representantes credenciados às mais sólidas administradoras do país, todas reguladas pelo Banco Central do Brasil. Conte com a nossa equipe para entender o funcionamento do consórcio, como utilizar e a melhor forma de 
-        contemplar a sua cota. Prestamos <span className="font-medium">assessoria exclusiva</span> antes, durante e após a contratação.
+          Somos representantes credenciados às mais sólidas administradoras do
+          país, todas reguladas pelo Banco Central do Brasil. Conte com a nossa
+          equipe para entender o funcionamento do consórcio, como utilizar e a
+          melhor forma de contemplar a sua cota. Prestamos{" "}
+          <span className="font-medium">assessoria exclusiva</span> antes,
+          durante e após a contratação.
         </div>
       </div>
     </div>
-  )
+  );
 }

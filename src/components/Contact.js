@@ -6,15 +6,27 @@ export default function Contact() {
           <span className="block">Ligamos para você</span>
         </h2>
         <form className="flex flex-row flex-wrap gap-2 w-3/2 bg-blue-100 p-2 shadow">
-            <input className="px-2 py-1 w-full outline-blue-100" placeholder="Nome"/>
-            <input className="px-2 py-1 w-full outline-blue-100" placeholder="Código de Área + Telefone"/>
-            <input className="px-2 py-1 w-3/4 outline-blue-100"placeholder="Data"/>
-            <select className="px-2 py-1 w-1/5 outline-blue-100" placeholder="Período">
-              <option>Manhã</option>
-              <option>Tarde</option>
-            </select>
+          <input
+            className="px-2 py-1 w-full outline-blue-100"
+            placeholder="Nome"
+          />
+          <input
+            className="px-2 py-1 w-full outline-blue-100"
+            placeholder="Código de Área + Telefone"
+          />
+          <input
+            className="px-2 py-1 w-3/4 outline-blue-100"
+            placeholder="Data"
+          />
+          <select
+            className="px-2 py-1 w-1/5 outline-blue-100"
+            placeholder="Período"
+          >
+            <option>Manhã</option>
+            <option>Tarde</option>
+          </select>
         </form>
       </div>
     </div>
-  )
+  );
 }
