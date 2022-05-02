@@ -2,12 +2,11 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../assets/logo-vert.png";
-import LogoMin from "../assets/logo-vert-min.png";
 
 const navigation = [
   { name: "Simulações", href: "/simulation" },
-  { name: "FAQ", href: "#" },
-  { name: "Cartas Contempladas", href: "#" },
+  { name: "FAQ", href: "/#" },
+  { name: "Cartas Contempladas", href: "/#" },
 ];
 
 export default function Header() {
@@ -33,9 +32,9 @@ export default function Header() {
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="/#">
                       <span className="sr-only">Workflow</span>
-                      <img className="h-8 w-auto sm:h-10" src={Logo} />
+                      <img alt="Logo da Guerra Consórcios" className="h-8 w-auto sm:h-10" src={Logo} />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -56,7 +55,7 @@ export default function Header() {
                     </a>
                   ))}
                   <a
-                    href="#"
+                    href="/#"
                     className="font-medium text-yellow hover:text-indigo-500"
                   >
                     Contato
@@ -102,7 +101,7 @@ export default function Header() {
                     ))}
                   </div>
                   <a
-                    href="#"
+                    href="/#"
                     className="block w-full px-5 py-3 text-center font-medium text-yellow bg-gray-50 hover:bg-gray-100"
                   >
                     Contato
@@ -139,7 +138,7 @@ export default function Header() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="/#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-500 bg-blue-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
                     Entenda como funciona

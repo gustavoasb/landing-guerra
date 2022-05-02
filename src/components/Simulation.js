@@ -17,7 +17,7 @@ export default function Simulation() {
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
             <a
-              href="#"
+              href="/#"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-indigo-50"
             >
               Contato

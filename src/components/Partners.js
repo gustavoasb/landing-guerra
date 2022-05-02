@@ -12,9 +12,9 @@ export default function Partners() {
         </h2>
         <div>
           <div className="flex items-center flex-center gap-4">
-            <img className="h-8 w-auto sm:h-16" src={LogoBb} />
-            <img className="h-8 w-auto sm:h-16" src={LogoItau} />
-            <img className="h-4 w-auto sm:h-8" src={LogoCaixa} />
+            <img alt="Logo do Banco do Brasil" className="h-8 w-auto sm:h-16" src={LogoBb} />
+            <img alt="Logo do Itaú" className="h-8 w-auto sm:h-16" src={LogoItau} />
+            <img alt="Logo da Caixa" className="h-4 w-auto sm:h-8" src={LogoCaixa} />
           </div>
         </div>
         <div className="text-center text-lg">
